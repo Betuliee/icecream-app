@@ -94,7 +94,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 - There are 2 ways to trigger user interaction while writing unit tests
 
-##FireEvent
+## FireEvent
 
 - Event trigger method coming in rtl
 - It has now been replaced by userEvent as it gives reactions far from the real user.
