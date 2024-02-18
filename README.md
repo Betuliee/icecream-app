@@ -69,3 +69,40 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # icecream-app
+
+
+# Technologies
+
+- axios@^0.27.2
+- @testing-library/user-event@14.0
+- json-server
+- bootstrap
+
+# Test Development Processes
+
+## TDD (Test Driven Development)
+
+- Red to Green test
+- First the test of the feature / component is written, then the component / feature is coded
+- Plus, the tests don't feel like a burden. Development becomes part of the process.
+
+## BDD (Behaviour Driven Developmentnet)
+
+- First the feature/component is developed and then tested.
+
+# Trigger User Interaction
+
+- There are 2 ways to trigger user interaction while writing unit tests
+
+##FireEvent
+
+- Event trigger method coming in rtl
+- It has now been replaced by userEvent as it gives reactions far from the real user.
+-triggered events occur much faster than a real person's reaction.
+
+## UserEvent
+
+- to use this way userEvent package must be downloaded
+- fireEvent's modern solution
+- the events we trigger occur after a certain delay, just like a real user would
+- async await is used because there is a delay
